@@ -1,0 +1,7 @@
+name: Expressions
+version: @version@
+main: xyz.acrylicstyle.expressions.spigot.SpigotPlugin
+api-version: 1.13
+commands:
+  expr:
+    permission: expressions.use
