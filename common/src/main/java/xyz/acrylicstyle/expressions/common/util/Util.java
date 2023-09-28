@@ -70,6 +70,7 @@ public class Util {
                 }
             }
         }
+        tokens.add("?as(");
         return tokens.stream().distinct();
     }
 

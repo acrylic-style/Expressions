@@ -17,7 +17,6 @@ allprojects {
     java.toolchain.languageVersion.set(JavaLanguageVersion.of(8))
 
     repositories {
-        mavenLocal()
         mavenCentral()
         maven { url = uri("https://repo.azisaba.net/repository/maven-public/") }
     }
